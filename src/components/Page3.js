@@ -33,7 +33,7 @@ const Page3 = () => {
 
   return (
     <div className="pageWrapper">
-      <h2 className="marginEnd">How are you planning to use Eden?</h2>
+      <h2 className="marginEnd alignCenter">How are you planning to use Eden?</h2>
       <span className="alignCenter innerText ">
         We'll streamline your setup experience accordingly.
       </span>

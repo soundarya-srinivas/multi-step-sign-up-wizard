@@ -182,3 +182,67 @@ a {
   height: 4.5em;
   width: 5em;
 }
+
+/* media-queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 0.8rem;
+    
+  }
+  h2{
+    font-size: 1rem;
+  }
+  .innerText{
+    font-size: 0.7em;
+  }
+  .uList{
+    padding-left: 0px;
+  }
+
+  .card {
+    border: 1px solid lightgray;
+    height: 10rem;
+    width: 8rem;
+    border-radius: 3px;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    margin-top: 0px;
+    margin-right:5px
+  }
+  p{
+font-size: small;
+  }
+  .exampleURL{
+    padding-right: 0px;
+    padding-left:0px
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px ) and (max-width:992px) {
+  h1{
+    font-size: 1.5rem;
+  }
+
+  .innerText{
+    font-size: 0.7em;
+  }
+  .uList{
+    padding-left: 0px;
+  }
+
+  .card {
+   
+    margin-top: 0px;
+   
+  }
+  .exampleURL{
+    margin: 6px 0px 0px 0px;
+  
+    padding: 11.4px;
+  }
+}
+
